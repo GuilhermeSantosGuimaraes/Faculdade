@@ -4,22 +4,28 @@
     box-sizing: border-box;
     font-family: 'Benne', serif;
     color: black;
+
+    img{
+        border-radius: 4px;
+    }
 }
 
 body{
     background-color: #fff;
-
+    width: 100%;
+    height: 100vh;
+    min-width: 100vw;
 }
 
 header{
-    height: 150px;
-    background-color: #378A5B;
+    height: 100px;
+    background-color: #0CF06E;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     img{
-        height: 150px;
+        height: 100px;
         width: auto;
     }
 
@@ -60,4 +66,53 @@ header{
             border-radius: 4px;
         }
     }
-}   
+}  
+
+main{
+    display: flex;
+    float: left;
+    padding: 20px 10px;
+
+    #principal{
+        width: 60%;
+        figure{
+            img{
+                height: 500px;
+                width: auto;
+            }
+        }
+
+        article{
+            font-size: 20px;
+            line-height: 20px;
+            margin-top: 10px;
+        }
+    }
+
+    #menu-Lateral{
+        width: 20%;
+        #links{
+            height: 500px;
+            border: 1px solid black;
+            
+        }
+    }
+}
+
+#logo-Inf{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        height: 150px;
+        width: auto; 
+    }
+
+    hr{
+        width: 100%;
+        border: 1px solid;
+    }
+
+}
