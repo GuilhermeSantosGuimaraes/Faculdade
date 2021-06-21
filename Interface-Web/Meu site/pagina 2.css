@@ -1,0 +1,65 @@
+body{
+	width: 1024px;
+	font-family: sans-serif;
+}
+
+.img img{
+	width: 400px;
+}
+
+.img{
+	float: left;
+	margin-right: 10px;
+}
+
+.txt {
+	float: right;
+	max-width: 500px;
+	margin-left: 5px;
+	text-align: justify;
+}
+
+img, p{
+	display: inline-block;
+}
+
+
+p{
+	font-family: serif;
+	text-align: justify;
+}
+
+ul.a{
+	list-style-type: circle;
+}
+
+dl.tabela{
+	width: 41.lem;
+	margin: 2em 0;
+	padding: 0;
+	font-family: georgia, times, serif;
+}
+
+.tabela dt{
+	width: 15em;
+	float: left;
+	margin: 0 0 0 0;
+	padding: .5em;
+	border-top: 1px solid #999;
+	font-weight: bold;
+}
+
+dt{
+	clear: both; /* permite deixar a lista alinhada*/
+}
+
+.tabela dd{
+	float: left;
+	width: 24em;
+	margin: 0 0 0 0;
+	padding: .5em;
+	border-top: 1px solid #999;
+
+}
+
+

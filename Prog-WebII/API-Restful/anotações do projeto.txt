@@ -1,0 +1,13 @@
+requisão http parte de um request(solicitação) que gera um response(resposta)
+
+Nodemon: serve para testes sem precisar fechar o server e abrir, ele atualiza o servidor depois de cada atualização 
+	de arquivo
+instalamos npm install nodemon -D pra ficar só ambiente de desenvolvimento pra rodar só nos testes, na hora do teste 
+no terminal pode-se usar o comando npx nodeman "nome do arquivo"
+
+Métodos HTTP
+GET: busca um recurso expecifico
+POST: cria um novo recurso
+PUT: atualização dos recursos
+PATCH: faz pequenas atualizações
+DELETE: delete os recursos

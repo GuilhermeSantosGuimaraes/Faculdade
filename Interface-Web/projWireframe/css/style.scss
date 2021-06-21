@@ -1,0 +1,138 @@
+/*O seletor *, seleciona cada um dos elementos do documento html*/
+
+/*Zerar as propriedades de margin e padding de todos os elementos 
+
+	do html, pois assim teremos maior controle sobre o conteúdo da página*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/*Seleciona o elemento HTML*/
+html{
+    font-family: 'Benne', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #B4B8AB;
+    color: #F4F9E9;
+}
+
+#container{
+    min-width: 600px;
+    max-width: 1200px;
+    background-color: #153243;
+    margin: 0 auto;
+}
+
+header{
+    height: 110px;
+    background-color: #284B63;
+    text-align: center;
+
+    h1{
+        color: #F4F9E9;
+    }
+
+    nav{
+   
+        height: 50px;
+        background-color: #284B63;
+
+        ul{
+            li{
+                display: inline;
+                list-style: none;
+                padding: 8px 10px;
+                margin-right: 5px;
+
+                a{
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #F4F9E9;
+                    font-weight: bold;
+
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+#destaque{
+    height: 350px;
+
+    figure{
+        width: 35%;
+        float: left;
+        margin: 25px 20px;
+        
+        img{
+            width: 100%;
+        }
+    }
+
+    p{
+        float: right;
+        width: 55%;
+        margin: 25px 20px;
+        color: #F4F9E9;
+    }
+}
+
+main{
+    height: 500px;
+    background-color: #284B63;
+
+    #noticias{
+        float: left;
+        width: 68%;
+        height: 100%;
+        padding: 20px;
+
+        #noticia1{
+            padding: 15px;
+        }
+
+        #noticia2{
+            padding: 15px;
+        }
+    }
+
+    aside{
+        width: 30%;
+        height: 100%;
+        float: right;
+        background-color: #B4B8AB;
+        color: black;
+        padding: 20px;
+
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: 25%;
+            border: solid 1px black;
+            border-radius: 15px;
+            margin: 15px auto;
+        }
+    }
+}
+
+footer{
+    height: 80px;
+
+    p{
+        float: right;
+        padding: 20px;
+        width: 50%;
+        line-height: 18px;
+    }
+}
+
+
+

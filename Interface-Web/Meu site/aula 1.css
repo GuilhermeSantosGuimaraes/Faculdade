@@ -1,0 +1,19 @@
+body{
+	width: 1024px;
+}
+
+.imgpos{
+	float: right;
+	margin-top: 10px; 	
+}
+
+.imgpos img{
+	width: 400px;
+}
+
+.txtpos p{
+	float: right;
+	max-width: 500px;
+	margin-left: 10px;
+	text-align: justify;
+}
