@@ -20,7 +20,7 @@ body {
 
 header {
   height: 100px;
-  background-color: #378A5B;
+  background-color: #0CF06E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,7 +86,9 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  float: left;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding: 20px 10px;
 }
 
@@ -115,7 +117,6 @@ main #menu-Lateral #links {
 }
 
 #logo-Inf {
-  clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

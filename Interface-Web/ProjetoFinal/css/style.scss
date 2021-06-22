@@ -70,7 +70,7 @@ header{
 
 main{
     display: flex;
-    float: left;
+    justify-content: flex-start;
     padding: 20px 10px;
 
     #principal{
@@ -100,7 +100,6 @@ main{
 }
 
 #logo-Inf{
-    clear: both;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,5 +113,4 @@ main{
         width: 100%;
         border: 1px solid;
     }
-
 }
