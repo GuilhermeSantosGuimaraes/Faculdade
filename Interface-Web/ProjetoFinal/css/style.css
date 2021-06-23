@@ -96,18 +96,27 @@ main {
 }
 
 main #principal {
-  width: 60%;
+  width: 50%;
+  margin-right: 10%;
 }
 
-main #principal figure img {
+main #principal .swiper-container {
   height: 500px;
-  width: auto;
+}
+
+main #principal .swiper-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 main #principal article {
   font-size: 20px;
   line-height: 20px;
   margin-top: 10px;
+  text-align: justify;
 }
 
 main #menu-Lateral {
