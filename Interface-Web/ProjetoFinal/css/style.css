@@ -86,9 +86,9 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -123,9 +123,30 @@ main #menu-Lateral {
   width: 20%;
 }
 
-main #menu-Lateral #links {
+main #menu-Lateral #menu-links {
   height: 500px;
-  border: 1px solid black;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main #menu-Lateral #menu-links .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #menu-Lateral #menu-links .link ion-icon {
+  font-size: 50px;
+}
+
+main #menu-Lateral #menu-links .link a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 5px;
 }
 
 #logo-Inf {
@@ -148,5 +169,10 @@ main #menu-Lateral #links {
 #logo-Inf hr {
   width: 100%;
   border: 1px solid;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
