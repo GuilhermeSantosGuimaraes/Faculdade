@@ -34,9 +34,9 @@
         <section id="principal">
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="img/Banner/banner1.png"></div>
-                  <div class="swiper-slide"><img src="img/Banner/banner2.png"></div>
-                  <div class="swiper-slide"><img src="img/Banner/banner3.png"></div>
+                  <div class="swiper-slide"><img src="img/Banner/banner1.png" alt="imagem do banner"></div>
+                  <div class="swiper-slide"><img src="img/Banner/banner2.png" alt="imagem do banner"></div>
+                  <div class="swiper-slide"><img src="img/Banner/banner3.png" alt="imagem do banner"></div>
                 </div>
                 
                 <div class="swiper-pagination"></div>
@@ -52,25 +52,44 @@
         </aside>
     </main>
 
-    <div id="logo-Inf">
-        <hr>
-        <img src="img/logo.png" alt="logo da pagina">
-        <hr>
-    </div>
-
     <footer>
-        <h2>Conheça a nossa escola!</h2>
-        <div id="menu-footer">
-            <div id="menu-links">
-                <div id="titulo"><h3>Redes Sociais</h3></div>
-                <div class="link">
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <div id="logo-Inf">
+            <hr>
+            <img src="img/logo.png" alt="logo da pagina">
+            <hr>
+        </div>
+        <div id="container-footer">
+            <h2>Conheça a nossa escola!</h2>
+            <div id="menu-footer">
+                <div id="menu-links">
+                    <div id="email">
+                        <h3>Contato</h3>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>happycode@happycode.com.br</span>
+                        <div class="link">
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div id="form">
-                <h3>Contato</h3>
+                <div id="form">
+                    <h3>Agende sua aula grátis!</h3>
+                    <h4>Preencha os campos e venha conhecer nossa escola</h4>
+                    <form action="cadastro.php">
+                        <label for="name">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                        <label for="cel">Telefone</label>
+                        <input type="tel" name="cel" id="cel">
+                        <label for="unidade">Unidade de interesse </label>
+                        <select name="unidade" id="unidade">
+                            <option value="moinhos">Moinhos</option>
+                            <option value="zs">Zona Sul</option>
+                        </select>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
             </div>
         </div>
         <p>Happy Code - POA/CNPJ XX.XXX.XXX/0001-XX</p>

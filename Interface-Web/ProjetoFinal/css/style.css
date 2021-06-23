@@ -124,7 +124,7 @@ main #menu-Lateral {
   border: solid 1px black;
 }
 
-#logo-Inf {
+footer #logo-Inf {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,36 +136,110 @@ main #menu-Lateral {
           align-items: center;
 }
 
-#logo-Inf img {
+footer #logo-Inf img {
   height: 150px;
   width: auto;
 }
 
-#logo-Inf hr {
+footer #logo-Inf hr {
   width: 100%;
   border: 1px solid;
 }
 
-footer h2 {
-  text-align: center;
+footer #container-footer {
+  padding: 20px;
+  width: 100%;
 }
 
-footer #menu-footer {
+footer #container-footer h2 {
+  font-size: 30px;
+}
+
+footer #container-footer #menu-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 20px;
 }
 
-footer #menu-footer #menu-links {
+footer #container-footer #menu-footer #menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-footer #menu-footer #menu-links .link ion-icon {
-  font-size: 50px;
+footer #container-footer #menu-footer #menu-links #email {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+footer #container-footer #menu-footer #menu-links #email ion-icon {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #container-footer #menu-footer #menu-links #email h3, footer #container-footer #menu-footer #menu-links #email span {
+  margin-left: 15px;
+}
+
+footer #container-footer #menu-footer #menu-links #email .link {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #container-footer #menu-footer #menu-links #email .link ion-icon {
+  font-size: 20px;
+  color: #62a87c;
+}
+
+footer #container-footer #menu-footer #form {
+  background-color: #62a87c;
+  border-radius: 4px;
+  width: 35%;
+  text-align: center;
+}
+
+footer #container-footer #menu-footer #form h3 {
+  color: #fff;
+}
+
+footer #container-footer #menu-footer #form form {
+  display: block;
+  padding: 10px;
+  text-align: justify;
+}
+
+footer #container-footer #menu-footer #form form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #fff;
+}
+
+footer #container-footer #menu-footer #form form input, footer #container-footer #menu-footer #form form select {
+  width: 50%;
+  border-radius: 4px;
+}
+
+footer #container-footer #menu-footer #form form input:last-of-type, footer #container-footer #menu-footer #form form select:last-of-type {
+  width: 25%;
 }
 
 footer p {
