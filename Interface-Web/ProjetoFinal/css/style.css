@@ -20,7 +20,7 @@ body {
 
 header {
   height: 100px;
-  background-color: #0CF06E;
+  background-color: #62a87c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,9 +86,9 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -121,32 +121,7 @@ main #principal article {
 
 main #menu-Lateral {
   width: 20%;
-}
-
-main #menu-Lateral #menu-links {
-  height: 500px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-main #menu-Lateral #menu-links .link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-main #menu-Lateral #menu-links .link ion-icon {
-  font-size: 50px;
-}
-
-main #menu-Lateral #menu-links .link a {
-  text-decoration: none;
-  font-size: 20px;
-  margin-left: 5px;
+  border: solid 1px black;
 }
 
 #logo-Inf {
@@ -169,6 +144,28 @@ main #menu-Lateral #menu-links .link a {
 #logo-Inf hr {
   width: 100%;
   border: 1px solid;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+footer #menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 20px;
+}
+
+footer #menu-footer #menu-links {
+  width: 60%;
+}
+
+footer #menu-footer #menu-links .link ion-icon {
+  font-size: 50px;
 }
 
 footer p {

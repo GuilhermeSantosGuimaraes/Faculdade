@@ -19,7 +19,7 @@ body{
 
 header{
     height: 100px;
-    background-color: #0CF06E;
+    background-color: #62a87c;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -70,7 +70,7 @@ header{
 
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 20px 10px;
 
@@ -100,27 +100,8 @@ main{
 
     #menu-Lateral{
         width: 20%;
-        
-        #menu-links{
-            height: 500px;
-            
-            justify-content: flex-start;
-            
-            .link{
-                display: flex;
-                align-items: center;
-
-                ion-icon{
-                    font-size: 50px;
-                }
-
-                a{
-                    text-decoration: none;
-                    font-size: 20px;
-                    margin-left: 5px;
-                }
-            }
-        }
+        border: solid 1px black;
+       
     }
 }
 
@@ -141,6 +122,28 @@ main{
 }
 
 footer{
+    h2{
+        text-align: center;
+    }
+
+    #menu-footer{
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+        
+        #menu-links{
+            width: 60%;
+
+            .link{
+                
+                ion-icon{
+                    font-size: 50px;
+                }
+               
+            }
+        } 
+    }
+
     p{
         text-align: center;
         font-size: 10px;
