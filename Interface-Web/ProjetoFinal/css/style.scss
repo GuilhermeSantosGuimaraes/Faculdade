@@ -4,10 +4,6 @@
     box-sizing: border-box;
     font-family: 'Benne', serif;
     color: black;
-
-    img{
-        border-radius: 4px;
-    }
 }
 
 body{
@@ -69,15 +65,9 @@ header{
 }  
 
 main{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 20px 10px;
-
     #principal{
-        width: 50%;
-        margin-right: 10%;
         
+
         .swiper-container{
             height: 500px;
             .swiper-slide{
@@ -98,11 +88,6 @@ main{
         }
     }
 
-    #menu-Lateral{
-        width: 20%;
-        border: solid 1px black;
-       
-    }
 }
 
 
@@ -161,6 +146,7 @@ footer{
                         ion-icon{
                             font-size: 20px;
                             color: #62a87c;
+                            margin-right: 5px;
                         }
                     }
                 }
