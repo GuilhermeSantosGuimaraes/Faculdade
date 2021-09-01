@@ -91,3 +91,50 @@ footer p {
     line-height: 1.5rem;
     color: #999;
 }
+
+@media only screen and (min-width: 500px){
+    header img{
+        width: 40%;
+        height: auto;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+        width: 18%;
+    }
+
+    .full-banner h1{
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width:700px){
+    header{
+        padding: 10px;
+        height: 50px;
+    }
+
+    header a.logo img{
+        width: 20%;
+        height: auto;
+        float: left;
+        margin-left: 30px;
+    }
+
+    header nav ul{
+        float: right;
+    }
+
+    header nav ul li{
+        margin: 10px;
+    }
+
+    .full-banner h1{
+      opacity: 1;  
+    }
+
+    .galeria div{
+        width: 20%;
+        float: left;
+    }
+}
