@@ -54,6 +54,6 @@ async function deletar(id){
 }
 
 listar();
-inserir({nome: "produto1", preco: 10});
+//inserir({nome: "produto1", preco: 10});
 //atualizar({nome: "produto4", preco: 40}, 4);
 //deletar()/
